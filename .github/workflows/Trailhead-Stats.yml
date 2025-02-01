@@ -1,28 +1,28 @@
 name: Update Trailhead Stats
 
 on:
-schedule:
-  - cron: '*/1 * * * *' # Runs daily
+  schedule:
+    - cron: '*/1 * * * *' # Runs daily
 
 jobs:
-update-stats:
-  runs-on: ubuntu-latest
-  permissions:
-    contents: write
-  steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - uses: nabondance/Trailhead-Stats@v2.0.0
-      with:
-        trailhead-username: 'SalesforceJohn'
-        display-type: 'card'
-        showSkillNumber: 3
-        showSkillTheme: 'olympic'
-        showSkill: 'visible'
-        showCertification: 'detail'
-        showCertificationLatest: 'hidden'
-        showBadge: 'count'
-        showBadgeLatest: 'hidden'
-        showSuperBadgeLatest: 'hidden'
-        showEventBadgeLatest: 'hidden'
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: nabondance/Trailhead-Stats@v2.0.0
+        with:
+          trailhead-username: 'SalesforceJohn'
+          display-type: 'card'
+          showSkillNumber: 3
+          showSkillTheme: 'olympic'
+          showSkill: 'visible'
+          showCertification: 'detail'
+          showCertificationLatest: 'hidden'
+          showBadge: 'count'
+          showBadgeLatest: 'hidden'
+          showSuperBadgeLatest: 'hidden'
+          showEventBadgeLatest: 'hidden'
         showStampLatest: 'hidden'
