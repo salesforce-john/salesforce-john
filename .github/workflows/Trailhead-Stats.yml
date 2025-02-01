@@ -16,7 +16,9 @@ jobs:
         with:
           trailhead-username: 'SalesforceJohn'
           display-type: 'card'
-          show-skill-number: 3
-          show-skill-theme: 'olympic'
-          show-skill: 'visible'
+          show-skill: 'hidden'
           show-certification: 'detail'
+          show-superbadge: 'number'
+          show-eventbadge: 'number'
+          show-stamp: 'number'
+
