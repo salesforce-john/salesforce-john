@@ -18,7 +18,7 @@ jobs:
           display-type: 'card'
           show-skill: 'hidden'
           show-certification: 'detail'
-          show-superbadge: 'number'
-          show-eventbadge: 'number'
+          show-super-badge: 'number'
+          show-event-badge: 'number'
           show-stamp: 'number'
 
