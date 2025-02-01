@@ -2,7 +2,7 @@ name: Update Trailhead Stats
 
 on:
   schedule:
-    - cron: '*/2 * * * *' # Runs daily
+    - cron: '*/5 * * * *' # Runs daily
 
 jobs:
   update-stats:
@@ -16,13 +16,3 @@ jobs:
         with:
           trailhead-username: 'SalesforceJohn'
           display-type: 'card'
-          showSkillNumber: 3
-          showSkillTheme: 'olympic'
-          showSkill: 'visible'
-          showCertification: 'detail'
-          showCertificationLatest: 'hidden'
-          showBadge: 'count'
-          showBadgeLatest: 'hidden'
-          showSuperBadgeLatest: 'hidden'
-          showEventBadgeLatest: 'hidden'
-          showStampLatest: 'hidden'
