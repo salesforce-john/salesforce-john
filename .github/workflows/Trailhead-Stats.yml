@@ -25,4 +25,4 @@ jobs:
           showBadgeLatest: 'hidden'
           showSuperBadgeLatest: 'hidden'
           showEventBadgeLatest: 'hidden'
-        showStampLatest: 'hidden'
+          showStampLatest: 'hidden'
