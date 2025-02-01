@@ -2,7 +2,7 @@ name: Update Trailhead Stats
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Runs daily
+    - cron: '*/2 * * * *' # Runs daily
 
 jobs:
   update-stats:
