@@ -2,7 +2,7 @@ name: Update Trailhead Stats
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Runs daily
+    - cron: '0 */8 * * *' # Runs daily
 
 jobs:
   update-stats:
@@ -21,4 +21,4 @@ jobs:
           show-superbadge: 'number'
           show-event-badge: 'number'
           show-stamp: 'number'
-          show-badge-latest: 'show'
+          show-badge-latest: 'visible'
