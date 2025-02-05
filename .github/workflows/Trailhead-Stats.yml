@@ -21,4 +21,4 @@ jobs:
           show-superbadge: 'number'
           show-event-badge: 'number'
           show-stamp: 'number'
-          show-latest-badge: 'show'
+          show-badge-latest: 'show'
